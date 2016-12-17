@@ -27,8 +27,8 @@
 || NOT LIKE Case insensitive exact string inequality comparison col_name NOT LIKE "ULFR" 				 	   _|
 || % Used anywhere in a string to match a sequence of zero or more characters (only with LIKE or NOT LIKE) col_name LIKE "%**%") _|
 || _ Used anywhere in a string to match a single character (only with LIKE or NOT LIKE) col_name LIKE "**_"		       _|
-|| IN (…) String exists in a list col_name IN ("*", "*", "*") 							             _|
-|| NOT IN (…) String does not exist in a list col_name NOT IN ("*", "*", "*") 						    |
+|| IN (...) String exists in a list col_name IN ("*", "*", "*") 							     _|
+|| NOT IN (...) String does not exist in a list col_name NOT IN ("*", "*", "*") 				  	    |
 ..==========================================================================================================================
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ SELECT * FROM movies ORDER BY title ASC LIMIT 5 OFFSET 5;    (List the next five
 	||================================================================================||
 	||================================================================================||
 	|| SELECT query									  ||
-	|| 	SELECT column, another_column, …					  ||
+	|| 	SELECT column, another_column, ...					  ||
 	||		FROM mytable							  ||
 	||			WHERE condition(s)					  ||
 	||				ORDER BY column ASC/DESC			  ||
@@ -65,12 +65,12 @@ SELECT * FROM movies INNER JOIN boxoffice ON id=movie_id ORDER BY rating DESC
 	______________________________________________________________________________________________
        |______________________________________________________________________________________________|
        \__|											   |__/
-	|||	    SELECT column, another_column, …				 	   	   |||
+	|||	    SELECT column, another_column, ...				 	   	   |||
 	|||		 FROM mytable							   	   |||
 	|||		    INNER/LEFT/RIGHT/FULL JOIN another_table 		   		   |||
 	|||			    ON mytable.id = another_table.matching_id			   |||
 	|||				WHERE condition(s)				   	   |||
-	|||					ORDER BY column, … ASC/DESC		   	   |||
+	|||					ORDER BY column, ... ASC/DESC		   	   |||
 	|||						LIMIT num_limit OFFSET num_offset; 	   |||
 	|__\______________________________________________________________________________________/__|
         \____________________________________________________________________________________________/
@@ -83,7 +83,7 @@ SELECT DISTINCT role, building_name FROM buildings LEFT JOIN employees ON buildi
 		 ___________________________________________
 		|""\=====================================/""|
 		|""/=====================================\""|
-		|""\   SELECT column, another_column, …	 /""|
+		|""\   SELECT column, another_column,... /""|
 		|""/	FROM mytable			 \""|
 		|""\	 WHERE column IS/IS NOT NULL	 /""|
 		|""/	  AND/OR another_condition	 \""|
@@ -107,7 +107,7 @@ SELECT DISTINCT building_name FROM buildings LEFT JOIN employees ON building_nam
 	  ________________________________________________
  	/)						  (\
 	//						   \\
-	\\   SELECT column AS better_column_name, …	   //
+	\\   SELECT column AS better_column_name, ...	   //
 	//    FROM a_long_widgets_table_name AS mywidgets  \\
 	\\     INNER JOIN widget_results	           //
 	//     ON mywidgets.id = widget_result.widget_id;  \\
@@ -155,7 +155,7 @@ SELECT role, SUM(years_employed) FROM employees GROUP By role HAVING role="Engin
 			||===========================================================||   |
 			||===========================================================||   |
 			||							     ||   |
-			|| SELECT DISTINCT column, AGG_FUNC(column_or_expression), … ||   |
+			|| SELECT DISTINCT column, AGG_FUNC(column_or_expr), ...     ||   |
 			|| FROM mytable						     ||	  |
 			||    JOIN another_table			             ||   |
 			||      ON mytable.column = another_table.column   	     ||   |
@@ -185,14 +185,14 @@ SELECT director, SUM(domestic_res+international_res) AS total_result FROM movies
 ||================||=================||=================||=================||=================||=================||=================||===========||
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-for all columns:	INSERT INTO mytable VALUES (value_or_expr, another_value_or_expr, …), (value_or_expr_2, another_value_or_expr_2, …), …;
-for some columns:       INSERT INTO mytable (column, else_column, …) VALUES (value, else_value_or_expr, …), (value_2, else_value_or_expr_2, …), …;
+for all columns:	INSERT INTO mytable VALUES (value_or_expr, another_value_or_expr, ...), (value_or_expr_2, another_value_or_expr_2, ...), ...;
+for some columns:       INSERT INTO mytable (column, else_col, ...) VALUES (value, else_val_or_expr, ...), (value_2, else_val_or_expr_2, ...), ...;
 
 INSERT INTO movies (title, director, year, length_minutes) VALUES ("Toy Story 4", "Torald Asgeirsson", 2003, 28); 
 INSERT INTO boxoffice (movie_id, rating, domestic_res, international_res) VALUES (16, 8.7, 340000000, 270000000); 
 
 
-			UPDATE mytable SET column = value_or_expr, other_column = another_value_or_expr, … WHERE condition;
+			UPDATE mytable SET column = value_or_expr, other_column = another_value_or_expr, ... WHERE condition;
 
 UPDATE movies SET director="Torvald Asgeirsson" WHERE title="Little Bersrkr"; BUT PROPERLY TO USE "id=*";
 UPDATE movies SET year = 1999 WHERE title="Toy Story 2";   BUT PROPERLY TO USE "id=*";
@@ -207,7 +207,7 @@ DELETE FROM movies WHERE year < 2005;
 DELETE FROM movies WHERE director="Asgeir Torvaldsson";
 
 	
-----------	        CREATE TABLE IF NOT EXISTS mytable (column DataType TableConst DEFAULT value, _column DataType TableConst DEFAULT value,…);
+----------	        CREATE TABLE IF NOT EXISTS mytable (column DataType TableConst DEFAULT value, _column DataType TableConst DEFAULT value,...);
 Data Type:
 ----------
  ^ ^ ^ ^ 
@@ -300,7 +300,7 @@ DROP TABLE IF EXISTS Boxoffice;
 
 
 /\^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^/\
-\|	SELECT *, … FROM mytable WHERE column IN/NOT IN (SELECT another_column FROM another_table);						   |/
+\|	SELECT *, ... FROM mytable WHERE column IN/NOT IN (SELECT another_column FROM another_table);						   |/
 |]																		   [|
 [| SELECT "column, ""column FROM #table UNION / UNION ALL / INTERSECT / EXCEPT SELECT ^column, ^^column FROM ##table ORDER BY column DESC LIMIT @; |]
 /|																	           |\
