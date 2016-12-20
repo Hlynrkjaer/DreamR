@@ -1,11 +1,10 @@
 There will be pictures (as screenshots) about potential mistake in words.
 
-  And small description about this screenshots places 
+ And small description about this screenshots places 
   
   -------------->><<----------------<<>>---------------->><<----------------
   
-  
-  URL for related part : will be around screenshot's list;
+  URL for related part : will be around screenshot's list;
   
          Screenshots about next point/places:          
          =====================================
@@ -47,7 +46,7 @@ There will be pictures (as screenshots) about potential mistake in words.
                  but maybe can be "he" (as 'security consultant') or "she or he" (like who as security consultant);
          
          ->     "Fourteen.png" is about place, where potentially "meanings"-mistake;
-                        because there is talk about new developer (someone), but later "onle" 'she';
+                        because there is talk about new developer (someone), but later "only" 'she';
                   but maybe can be "he" (as 'new developer') or "she or he" (like who as new developer);
                   
          ->     "Fifteen.png" is about place, where potentially "maximizing"-word called as //"maximixing"//;
