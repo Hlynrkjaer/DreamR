@@ -4,8 +4,9 @@ There will be pictures (as screenshots) about potential mistake in words.
   
   -------------->><<----------------<<>>---------------->><<----------------
   
-      URL for related part : will be around screenshot's list;
-         
+  
+  URL for related part : will be around screenshot's list;
+  
          Screenshots about next point/places:          
          =====================================
       || URL for related part of: https://cybersecuritybase.github.io/securing/
