@@ -1,0 +1,434 @@
+
+		=====================================================================================
+		\\.......===================================================================.......//
+		//										   \\
+		\\	   [] <!DOCTYPE html> means that this document HTML5	   		   //
+		//										   \\
+		\\	   [] <html> tag is main tag of an HTML page			   	   //
+		//										   \\
+	       //	   [] <head> tag contains meta information about document	 	    \\
+	       \\										    //
+	       //	   [] <title> tag specifies a title for document   		    	    \\
+	       \\										    //
+	       //	   [] <body> tag contains visible page content			    	    \\
+	       \\										    //
+	       //	   [] <h1> tag defines large heading				    	    \\
+	       \\										    //
+	       //	   [] <p> tag defines paragraph						    \\
+	       \|										    |/
+	       \\\.......===================================================================.......///
+		====================================================================================
+
+
+		       /---------------------------\	     /---------------------------\
+		      ::/::   <!DOCTYPE html>   ::\::	    ::/::  <h1> to <h6> tags  ::\::
+		       \---------------------------/	     \---------------------------/
+
+
+
+	[*][*][*][*][*][*][*][*][*][*]
+       /  <h1>This is heading 1</h1>  \
+       /  <h2>This is heading 2</h2>  \
+       /  <h3>This is heading 3</h3>  \
+       /	     ....	      \
+       \[=][=][=][=][=][=][=][=][=][=]/
+						[*][*][*][*][*][*][*][*][*][*][*][*]
+					       /     <p>This is a paragraph.</p>    \
+					       /  <p>This is another paragraph.</p> \ 
+					       \[=][=][=][=][=][=][=][=][=][=][=][=]/
+
+
+	 [*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+	/      <a href="https://search.f-secure.com">This is URL</a>       \ 
+	\[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=]/
+
+									[*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+								       / <img src="screenshot.png" alt="check.no" width="104" height="142">  \
+        /----------------------------------------\		       \[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=]/
+       ::/:: <br> OK, but HAVE TO use  <br /> ::\:: 
+       ::/:: <hr> OK, but HAVE TO use  <hr /> ::\:: 
+        \----------------------------------------/
+
+		 [*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+		/  		<p title="This is tooltip"> Words with tooltip </p> 		     \
+		/  <p title='Bjorn "Bersrkr" Asgeirsson'>  or <p title="Bjorn 'Bersrkr' Asgeirsson"> \ 
+		\[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=]/
+
+							     [*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+							    /	  <pre>Save  the     design of    this.</pre>   \
+							    \[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=]/
+ .------------------------------------------------.
+[ http://www.w3schools.com/tags/ref_attributes.asp ]
+ .------------------------------------------------.
+
+					/-----------------------------------------\
+				       ::/:: <tagname style="property:value;"> ::\::
+					\-----------------------------------------/
+
+		 [*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+		/	<h1 style="color:blue;">This is a heading</h1>			    \
+		/	<p style="color:powderblue;">This is a paragraph.</p>		    \
+		/	<h1 style="font-family:verdana;">This is a heading</h1>		    \
+		/	<p style="font-family:courier;">This is a paragraph.</p>	    \
+		/	<h1 style="font-size:288%;">This is a heading</h1>		    \
+		/	<p style="font-size:130%;">This is a paragraph.</p>		    \
+		/	<h1 style="text-align:center;">Centered Heading</h1>		    \
+		/	<p style="text-align:center;">Centered paragraph.</p>		    \
+		\[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=]/
+
+									[]==[][]==[][]==[][]==[][]==[][]==[]___.>>|\
+									[]=[] <b> - Bold text            / |___.>>|/
+									[]=[] <small> - Small text      / /    |
+									[]=[] <mark> - Marked text     / /     |
+									[]=[] <del> - Deleted text     \ \     |
+									[]=[] <ins> - Inserted text     \ \    |
+									[]=[] <sub> - Subscript text     \ \   |
+									[]=[] <em> - Emphasized text      \ \  |
+									[]=[] <sup> - Superscript text	   \ \ |
+									[]=[] <strong> - Important text	    \ \|
+									[]==[][]==[][]==[][]==[][]==[][]==[][]/
+		.____________________________________________________________________________________________________.
+		|____________________________________________________________________________________________________|
+		|||    <abbr title="Firewall">FW></abbr>						           |||
+		|||	<address> Defines contact information for the author/owner of a document 	           |||
+		|||	 <blockquote cite="http://www.f-secure.com/index.html">F-Secure.</blockquote> ??           |||
+		|||	  <q>quote</q>								           	   |||
+		|||	   <bdo dir=lrt>What a beautiful day!</bdo>					           |||
+		|||	    <kbd>, <samp>, and <code> tags displayed in fixed letter size and spacing  	   	   |||
+		./__________________________________________________________________________________________________\.
+
+
+	 [*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+	/		<!-- There your comments --> 	    	    \
+	/		 <!--[if IE 9]>				    \
+	/    		   .... HTML here ....		   	    \
+	/		 <![endif]-->				    \
+	\[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=]/
+
+
+		 [*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+		/		<!DOCTYPE html>				     \
+		/		 <html>					     \
+		/			 <head>				     \
+		/   	<link rel="stylesheet" href="styles.css">	     \
+		/			 </head>			     \
+		/			<body>				     \
+		/		<h1>This is heading</h1>		     \
+		/		<p>This is paragraph.</p>		     \
+		/			</body>				     \
+		/		 </html>				     \
+		\[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=]/
+									  ^
+									  |
+  								 .----------------------------------------------.
+								(	styles.css -->:				 )
+					 			)	  body {background-color: powderblue;}	(
+								(	  h1 {color: blue;}			 )
+					 			)	  p {color: lightblue;}			(
+								(.______________________________________________.)
+
+
+			[*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+			[*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+			|										   |
+			|         <link rel="stylesheet" href="http://www.w3schools.com/html/styles.css">  |
+			\	  <link rel="stylesheet" href="/html/styles.css"> 			   /
+			/	  <link rel="stylesheet" href="styles.css"> 				   \
+			|										   |
+			|=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=|
+			\[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=[=][=][=][=][=][=/
+
+
+		======================================================================================
+		\\.......====================================================================.......//
+		//										    \\
+		\\										    //
+		//		[] Use the HTML style attribute for inline design		    \\
+		\\		[] Use the HTML <style> tag to work with internal CSS		    //
+		//		[] Use the HTML <link> tag for work with an external CSS file	    \\
+		\\		[] Use the HTML <head> tag as place for <style> and <link> tags	    //
+		//		[] Use the CSS color property for text-paint 			    \\
+		\\		[] Use the CSS font-family property for text font		    //
+		//		[] Use the CSS font-size property for text size			    \\
+		\\		[] Use the CSS border property for border			    //
+		//		[] Use the CSS padding property for space inside border		    \\
+		\\		[] Use the CSS margin property for space outside border		    //
+		//										    \\
+		\|										    |/
+	       /\\.......====================================================================.......//\
+	       \======================================================================================/
+
+								/----------------------------------------------------------\
+							       ::/::    <a href="url" target="_option">link text</a>    ::\::
+								\----------------------------------------------------------/
+		=====================================================================================
+		\\.......===================================================================.......//
+		//										   \\
+		\\										   //
+		//	[] _blank - Opens the URL document in a fresh window or tab		   \\
+		\\	[] _self - ... in the same window/tab as it was choose			   //
+		//	[] _parent - Opens the URL document in the main frame			   \\
+		\\	[] _top - Opens the URL document in the full body of the window		   //
+		//	[] framename - Opens the URL document in a named frame			   \\
+		\\										   //
+		/|										   |\
+	       /\\.......===================================================================.......//\
+	       \=====================================================================================/
+
+			 ====================================================================================
+			\\.......====================================================================.......//
+			//										    \\
+			\\										    //
+			//	   [] Use the <a> tag to add URL					    \\
+			\\	   [] Use the href attribute to define the link address			    //
+			//	   [] Use the target attribute to define where to open the linked document  \\
+			\\	   [] Use the <img> tag (inside <a>) to use an image as a link		    //
+			//	   [] Use the id attribute (id="value") to define bookmarks in a page	    \\
+			\\	   [] Use the href attribute (href="#value") to link to the bookmark	    //
+			//										    \\
+		       //										     \\
+		      //\\.......====================================================================.......//\\
+		      \\======================================================================================//
+			'------------------------------------------------------------------------------------'
+
+				[*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+				[*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+				|				<a href="URL">					   |
+				|  <img src="check.png" alt="Check this." style="width:42px;height:42px;border:0"> |
+				|			        </a> 						   |
+		       		/\\.......=================================================================.......//\
+		       		\====================================================================================
+
+							/--------------------------------------------------------------------------\
+						       ::/:: <img src="url" alt="some_text" style="width:width;height:height;"> ::\::
+							\--------------------------------------------------------------------------/
+
+				 [*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+				/		<img src="html5.gif" alt="HTML5" width="128" height="128">	     \
+				/	<img src="/images/html5.png" alt="HTML5" style="width:128px;height:128px;">  \
+				/	<img src="logo.png" alt="LOGO" style="float:right;width:42px;height:42px;">  \
+				\[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=]/
+
+			 ====================================================================================
+			\\.......====================================================================.......//
+			//										    \\
+			\\										    //
+			//	[] Use the HTML <img> tag for picture					    \\
+			\\	[] Use the HTML src attribute to define URL of the picure		    //
+			//	[] Use the HTML alt attribute to define an alternate text		    \\
+			\\	[] Use the HTML width and height attributes for the size		    //
+			//	[] Use the CSS width and height properties for the size (alternatively)	    \\
+			\\	[] Use the CSS float property to let the picture float			    //
+			//	[] Use the HTML <map> tag to define an picture-map			    \\
+			\\	[] Use the HTML <area> tag to define the clickable areas in the map	    //
+			//	[] Use the HTML <img>'s tag usemap attribute to point to an map		    \\
+			\\										    //
+			/|										    |\
+		       /\\.......====================================================================.......//\
+		       \======================================================================================/
+
+				 ====================================================================================
+				\\.......====================================================================.......//
+				//										    \\
+				\\										    //
+				//		[] Use the HTML <table> tag for table				    \\
+				\\		[] Use the HTML <tr> tag for table row				    //
+				//		[] Use the HTML <td> tag for table data				    \\
+				\\		[] Use the HTML <th> tag for table heading			    //
+				//		[] Use the HTML <caption> tag for table caption			    \\
+				\\		[] Use the CSS border property to define a border		    //
+				//		[] Use the CSS border-collapse property to collapse cell borders    \\
+				\\		[] Use the CSS padding property to add padding to cells		    //
+				//		[] Use the CSS text-align property to align cell text		    \\
+				\\		[] Use the CSS border-spacing for set spacing between cells	    //
+				//		[] Use the colspan attribute to make a cell span many columns	    \\
+				\\		[] Use the rowspan attribute to make a cell span many rows	    //
+				//		[] Use the id attribute to uniquely define one table		    \\
+				\\  ===^===^===^===^===^===^===^===^===^===^===^===^===^===^===^===^===^===^===^=== //
+				//		[] Use the HTML <ul> tag to define an unordered list		    \\
+				\\		[] Use the CSS list-style-type property for list item marker	    //
+				//		[] Use the HTML <ol> tag to define an ordered list		    \\
+				\\		[] Use the HTML type attribute for the numbering type		    //
+				//		[] Use the HTML <li> tag to define a list item			    \\
+				\\		[] Use the HTML <dl> tag to define a description list		    //
+				//		[] Use the HTML <dt> tag to define the description term		    \\
+				\\		[] Use the HTML <dd> tag to describe the term in a description list //
+				//		[] Lists can be nested inside lists				    \\
+				\\		[] List items can contain other HTML tags 			    //
+				//		[] Use CSS property float:left or display:inline to list as line    \\
+				\\										    //
+				/|										    |\
+		       	       /\\.......====================================================================.......//\
+		       	       \======================================================================================/
+    . . . . . . . . . . . . . . . .  . . . . . . . . . . . . .
+ |\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/|
+ |   Examples of block-level tags:    Examples of inline tags:  |
+ |    []<div>			       []<span>			|
+ |     []<h1> - <h6>			[]<a>			|
+ |      []<p>			         []<img>		|
+ ^       []<form>						^
+ |______________________________________________________________|
+
+									 /---------------------------------------------------------\
+									::/::		<iframe src="URL"></iframe>		::\::
+									 \---------------------------------------------------------/
+
+			     [*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*][*]
+			    /     <iframe src="demo_iframe.htm" height="200" width="300"></iframe>	         \
+			    /	  <iframe src="demo_iframe.htm" style="border:none;"></iframe>		         \
+			    /	  <iframe src="demo_iframe.htm" style="border:2px solid grey;"></iframe>	 \
+			    /	  <iframe src="demo_iframe.htm" name="iframe_"></iframe>			 \
+			    \[=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=][=]/
+
+		        ________________________________________________________________________________________________________
+		      _| <img src="picture.jpg"> picture.jpg is located in the same folder as the current page 		        |_
+		    _|	 <img src="images/picture.jpg"> picture.jpg is located in the images folder located in the current folder |_
+		  _|	 <img src="/images/picture.jpg"> picture.jpg is located in the images folder located in the current web     |_
+		_|	 <img src="../picture.jpg"> picture.jpg is located in the folder one level up from the current folder 	      |_
+	       |________________________________________________________________________________________________________________________|
+	       '========================================================================================================================'
+
+ .-------------------------------------------.
+[ http://www.w3schools.com/html/html_head.asp ]
+ .-------------------------------------------.
+
+     /------------------------------------------------------------------\
+   <.  <base href="http://www.w3schools.com/images/" target="_blank">    .>
+     \------------------------------------------------------------------/
+
+				 ==============================================================================================
+				\\.......==============================================================================.......//
+				//										              \\
+				\\										              //
+				//			<head> Defines information about the document			      \\
+				\\			<title> Defines the title of a document 			      //
+				//	<base> Defines a default address or a default target for all links on a page	      \\
+				\\	<link> Defines the relationship between a document and an external resource 	      //
+				//			<meta> Defines metadata about an HTML document 			      \\
+				\\			<script> Defines a client-side script 				      //
+				//			<style> Defines style information for a document 		      \\
+				\\ [==()===)(===()==][==()===)(===()==][==()===)(===()==][==()===)(===()==][==()===)(===()==] //
+				//		[] <header> - Defines a header for a document or a section		      \\
+				\\		[] <nav> - Defines a container for navigation links			      //
+				//		[] <section> - Defines a section in a document				      \\
+				\\		[] <article> - Defines an independent self-contained article		      //
+				//		[] <aside> - Defines content aside from the content (like a sidebar)	      \\
+				\\		[] <footer> - Defines a footer for a document or a section		      //
+				//		[] <details> - Defines additional details				      \\
+				\\		[] <summary> - Defines a heading for the <details> tag			      //
+				//										    	      \\
+				\|										    	      |/
+		       	       /\\.......==============================================================================.......//\
+		       	       \================================================================================================/
+ .----------------------------------------------.
+[ http://www.w3schools.com/w3css/default.asp     ]
+[ http://www.w3schools.com/bootstrap/default.asp ]
+[ http://www.w3schools.com/css/css_float.asp     ]
+[ http://www.w3schools.com/css/css3_flexbox.asp  ]
+ .----------------------------------------------.
+
+			     /------------------------------------------------------------------\
+			   <.  a less than sign (<) we must write: &lt; or &#60;		 .>
+			     \------------------------------------------------------------------/
+				^
+				|
+ ===========================================================
+/ /		non-breaking space &nbsp; &#160; 	  \ \
+||		< less than &lt; &#60;			   ||
+||		> greater than &gt; &#62;		   ||
+||		& ampersand &amp; &#38; 		   ||
+||		" double quotation mark  &quot; &#34; 	   ||
+||		' single quotation mark  &apos; &#39; 	   ||
+||		© copyright &copy; &#169; 		   ||
+||		® registered trademark &reg; &#174	   ||
+\ \							  / /
+ ===========================================================
+
+		::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+		:: 			<form>form tags</form>					    ::
+		::  <input type="text"> Defines a one-line text input field			    ::
+		::  <input type="radio"> Defines a radio button (for selecting one of many choices) ::
+		::  <input type="submit"> Defines a submit button (for submitting the form)         ::
+		::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+			==============================================================================
+			""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+			""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+			""			<form>						    ""
+			""  	<input type="radio" name="beer" value="beer" checked> Beer<br />    ""
+			""	<input type="radio" name="beer" value="beer!"> beer!<br />	    ""
+			"" 	<input type="radio" name="beer" value="maybe"> Maybe<br />	    ""
+			"" 	<input type="submit" value="Submit">				    ""
+			""				</form> 				    ""
+			""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+			""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+			==============================================================================
+
+    /'''''''''''''''''''''''''''''''''''''''''''''\
+//// <form action="action_page.php" method="get">  \\\\
+\\\\ <form action="action_page.php" method="post"> ////
+    \............................................./
+
+		       #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
+			>	accept-charset Specifies charset used in the submitted form (default: the page charset).      <
+			>	action Specifies URL where to submit the form (default: the submitting page). 		      <
+			>	autocomplete Specifies if the browser should autocomplete the form (default: on). 	      <
+			>	enctype Specifies encoding of the transfer data (default: is url-encoded). 		      <
+			>	method Specifies HTTP method used when using the form (default: GET). 			      <
+			>	name Specifies name used to identify the form (for DOM usage: document.forms.name). 	      <
+			>	novalidate Specifies that browser should not validate the form. 			      <
+			>	target Specifies the target of the address in the action attribute (default: _self). 	      <
+  		       #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
+	   __________
+	  /	     \
+	[] <datalist> []
+	[]  <keygen>  []
+	[]  <output>  [] --> <output> tag represents the result of a calculation (like one performed by a script);
+	 \____________/
+
+ #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
+ >	<form> Defines an HTML form for user input 				<
+ >	<input> Defines an input control 					<
+ >	<textarea> Defines a multiline input control (text area)		<
+ >	<label> Defines a label for an <input> tag				<
+ >	<fieldset> Groups related tags in a form 				<
+ >	<legend> Defines a caption for a <fieldset> tag 			<
+ >	<select> Defines a drop-down list 					<
+ >	<optgroup> Defines a group of related options in a drop-down list 	<
+ >	<option> Defines an option in a drop-down list 				<
+ >	<button> Defines a clickable button					<
+ >	<datalist> Specifies a list of pre-defined options for input controls 	<
+ >	<keygen> Defines a key-pair generator field (for forms) 		<
+ >	<output> Defines the result of a calculation 				<
+ #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
+
+            _______________		 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
+	  /  HTML5 added:  \		 >	disabled Specifies that an input field should be disabled 		  <
+	 []________________[]		 >	readonly Specifies that an input field is read only (cannot be changed)   <
+	 []	color	   []		 >	max Specifies the maximum value for an input field 			  <
+	 []________________[]		 >	maxlength Specifies the maximum number of character for an input field 	  <
+	 []	date	   []		 >	min Specifies the minimum value for an input field 			  <
+	 []________________[]		 >	pattern Specifies a regular expression to check the input value against	  <
+	 []	datetime   []		 >	size Specifies the width (in characters) of an input field 		  <
+	 []________________[]		 >	required Specifies that an input field is required (must be filled out)   <
+	 [] datetime-local []		 >	step Specifies the legal number intervals for an input field 		  <
+	 []________________[]		 >	value Specifies the default value for an input field 			  <
+	 []	email	   []		 #^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^#
+	 []________________[]			   (===============================================)
+	 []     month	   []			[[[HTML5 added the following attributes for <input>:]]]
+	 []________________[]			   \................................................/
+	 []	number	   []			
+	 []________________[]			[]autocomplete[]   []autofocus[]   []form[]   []formaction[]   []formenctype[]
+	 []	range	   []				
+	 []________________[]				[]formmethod[]     []formtarget[]   []height and width[]
+	 []	search	   []		 
+	 []________________[]		   []list[]   []min and max[]	[]multiple[] []pattern (regexp)[]
+	 []	tel	   []
+	 []________________[]					[]formnovalidate[] 		[]placeholder[]
+ 	 []	time	   []
+	 []________________[]				[]required[]
+	 []     url	   []
+	 []________________[]						[]step[]
+	 []	week       []
+	 []________________[]		[]autocomplete[]  (for <form>)     		[]novalidate[] (for <form>)
+	  \________________/
