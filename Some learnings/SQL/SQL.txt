@@ -3,12 +3,12 @@
 | SELECT title FROM movies;   | SELECT director FROM movies;   | SELECT title, director FROM movies;	  | SELECT title, year FROM movies;      |
 \------------------------------------------------------------------------------------------------------------------------------------------------/
 							============================
-				      Find all table:   |   SELECT * FROM movies;  |
+				      Find all tables:   |   SELECT * FROM movies;  |
 							============================
 
 
 
-| Find the movie with a row id of 6  | Find the movies released in the years between 2000 and 2003 |
+| Find the movie with a row id of 6  | Find the movies realeased in the years between 2000 and 2003 |
 |====================================|=============================================================|
 | SELECT * FROM movies WHERE id=6;   | SELECT * FROM movies WHERE year BETWEEN 2000 AND 2003       |
 \--------------------------------------------------------------------------------------------------/
