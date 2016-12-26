@@ -1,7 +1,7 @@
 	body {background-color: #292538;}
 	h1 {color:white; text-align:center; font-size:350%}
-	ul {color:white; text-align:center; font-size:110%}
-	ol {color:white; text-align:center; font-size:80%}
+	#ul {color:white; text-align:center; font-size:110%}
+	#ol {color:white; text-align:center; font-size:80%}
 	a:link    {color:white; 
 				   background-color:transparent; 
 				   text-decoration:none}
