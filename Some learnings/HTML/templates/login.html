@@ -10,7 +10,7 @@
 <hr />
 <p style="font-size:115%; text-align:center;"><b>You are about to be part of <q><u><abbr title="Marbjorn Folk Party">MFP</abbr></u></q>.
 	If you are already registered - so you able to use your credentials and check how many people want to listen you!</b></p>
-    	  <div>
+    <div>
         <form name="form" th:action="@{/login}" method="post">
             <fieldset style="width:88%">
                 <legend style="font-family:verdana; font-size:150%;">Get your access</legend>
@@ -21,19 +21,21 @@
             </div>
                
 	    <div th:if="${param.logout}" class="alert alert-success">
+		<p></p>
 		<code>var <small>logOut</small> = { <strong>who</strong>:"you", <strong>what</strong>:"have been logged out" }</code>
+		<p></p>
             </div>
                 
 			Band: <br />
-                <input type="text" id="bandname" name="bandname" placeholder="your band's name.." required/><br />
+                <input type="text" id="bandname" name="bandname" placeholder="your band's name.." required="required" /><br />
                 	Password: <br />
                 <input type="password" id="password" name="password"/><br /><br />
 
             <div class="form-actions">
                     <button type="submit" class="btn">Go...</button>
-          </div>
-       </fieldset>
-     </form>
-   </div>
- </body>
+            </div>
+         </fieldset>
+       </form>
+     </div>
+   </body>
 </html>
