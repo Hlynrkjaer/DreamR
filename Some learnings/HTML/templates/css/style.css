@@ -1,10 +1,5 @@
-	body {
-background-color: #292538;
-}
-
-
+	body {background-color: #292538;}
 	h1 {color:white; text-align:center; font-size:350%}
-
 	ul {color:white; text-align:center; font-size:110%}
 	ol {color:white; text-align:center; font-size:80%}
 	a:link    {color:white; 
@@ -22,10 +17,8 @@ background-color: #292538;
 
 		/*flask*/
 
-
-
 	.flask {
-height: 405px;
+  height: 405px;
   width: 368px;
   position: absolute;
   bottom: 0;
@@ -34,14 +27,14 @@ height: 405px;
 
 
 	.flask_bottom {
-bottom: 0;
+  bottom: 0;
   position: absolute;
 }
 
 
 	
-.big_triangle {
-overflow: hidden;
+	.big_triangle {
+  overflow: hidden;
   position: relative;
   width: 368px;
   height: 250px;
@@ -51,7 +44,7 @@ overflow: hidden;
 
 
 	.big_triangle:before, .big_triangle:after {
-content: "";
+  content: "";
   display: block;
   width: 0;
   height: 0;
@@ -70,13 +63,13 @@ content: "";
 
 
 	.big_triangle:after {
-border-left: 152px solid transparent;
+  border-left: 152px solid transparent;
   right: 0;
 }
 
 
 	.flask_throat {
-overflow: hidden;
+  overflow: hidden;
   height: 155px;
   width: 64px;
   position: absolute;
@@ -86,8 +79,8 @@ overflow: hidden;
 
 	
 
-.flask_throat_one {
-position: absolute;
+	.flask_throat_one {
+  position: absolute;
   -webkit-transform: rotate(24deg);
   transform: rotate(24deg);
   -webkit-transform-origin: right top;
@@ -112,7 +105,7 @@ position: absolute;
 
 
 	.flask_throat_two {
-position: absolute;
+  position: absolute;
   -webkit-transform: rotate(20deg);
   transform: rotate(20deg);
   -webkit-transform-origin: right top;
@@ -137,7 +130,7 @@ position: absolute;
 
 
 	.flask_throat_three {
-position: absolute;
+  position: absolute;
   background-color: #5c30ae;
   width: 100%;
   height: 50px;
@@ -157,8 +150,8 @@ position: absolute;
 
 	
 
-.flask_throat_four {
-position: absolute;
+	.flask_throat_four {
+  position: absolute;
   -webkit-transform: rotate(20deg);
   transform: rotate(20deg);
   -webkit-transform-origin: right top;
@@ -202,7 +195,7 @@ position: absolute;
 
 
 	.flask_bottom_two {
-border-bottom: 165px solid #4266c0;
+  border-bottom: 165px solid #4266c0;
   border-left: 93px solid transparent;
   border-right: 200px solid transparent;
   width: 0;
@@ -224,7 +217,7 @@ border-bottom: 165px solid #4266c0;
 
 
 	.flask_bottom_three {
-position: absolute;
+  position: absolute;
   background-color: #4248c0;
   width: 100%;
   height: 75px;
@@ -249,7 +242,7 @@ position: absolute;
 
 
 	.flask_bottom_four {
-position: absolute;
+  position: absolute;
   background-color: #37acdd;
   width: 100%;
   height: 170px;
@@ -270,7 +263,7 @@ position: absolute;
 
 
 	.flask_bottom_five {
-position: absolute;
+  position: absolute;
   background-color: #1493c8;
   width: 100%;
   height: 218px;
@@ -295,7 +288,7 @@ position: absolute;
 
 
 	.flask_bottom_six {
-position: absolute;
+  position: absolute;
   background-color: #5c30ae;
   width: 100%;
   height: 50px;
@@ -318,14 +311,10 @@ position: absolute;
 }
 
 
-
-
 		/*bubbles*/
 	
-
-
 	.circle {
-border-radius: 50%;
+  border-radius: 50%;
   border: 1px solid #fff;
   position: absolute;
   left: 45%;
@@ -340,7 +329,7 @@ border-radius: 50%;
   animation-delay: 0s;
 }
 
-.little_circle {
+	.little_circle {
   width: 5px;
   height: 5px;
 }
@@ -348,7 +337,7 @@ border-radius: 50%;
 
 
 	.little_circle_white {
-background-color: #fff;
+  background-color: #fff;
   left: 48%;
   -webkit-animation-duration: 2000ms;
   animation-duration: 2000ms;
@@ -357,7 +346,7 @@ background-color: #fff;
 
 
 	.little_circle_violet {
-background-color: #6c49ac;
+  background-color: #6c49ac;
   border: 1px solid #6c49ac;
   left: 52%;
   -webkit-animation-duration: 2000ms;
@@ -369,7 +358,7 @@ background-color: #6c49ac;
 
 
 	.little_circle_blue {
-background-color: #117fba;
+  background-color: #117fba;
   border: 1px solid #117fba;
   left: 45%;
   -webkit-animation-duration: 2000ms;
@@ -381,7 +370,7 @@ background-color: #117fba;
 
 
 	.small_circle {
-width: 20px;
+  width: 20px;
   height: 20px;
   -webkit-animation-duration: 4200ms;
   animation-duration: 4200ms;
@@ -392,18 +381,14 @@ width: 20px;
 
 
 	.next_circle {
-width: 45px;
+  width: 45px;
   height: 45px;
 }
-
-		
-
-/*animation*/
-
-
+	
+	/*animation*/
 	
 	@-webkit-keyframes circle {
-  0% {
+  				    0% {
     -webkit-transform: translateZ(0px) translateY(20px) scale(1);
     transform: translateZ(0px) translateY(20px) scale(1);
     opacity: 1;
@@ -423,7 +408,7 @@ width: 45px;
 
 
 	@keyframes circle {
-  0% {
+  			     0% {
     -webkit-transform: translateZ(0px) translateY(20px) scale(1);
     transform: translateZ(0px) translateY(20px) scale(1);
     opacity: 1;
@@ -442,8 +427,8 @@ width: 45px;
 
 	
 
-@-webkit-keyframes animation_bg_element1 {
-  0% {
+	@-webkit-keyframes animation_bg_element1 {
+  						    0% {
     border-bottom-color: #3a2482;
   }
   
@@ -463,7 +448,7 @@ width: 45px;
 
 
 	@keyframes animation_bg_element1 {
-  0% {
+ 					    0% {
     border-bottom-color: #3a2482;
   }
   
@@ -482,8 +467,8 @@ width: 45px;
 
 	
 
-@-webkit-keyframes animation_bg_element2 {
-  0% {
+	@-webkit-keyframes animation_bg_element2 {
+  						    0% {
     border-bottom-color: #4266c1;
   }
   
@@ -503,7 +488,7 @@ width: 45px;
 
 
 	@keyframes animation_bg_element2 {
-  0% {
+  					    0% {
     border-bottom-color: #4266c1;
   }
   
@@ -523,7 +508,7 @@ width: 45px;
 
 
 	@-webkit-keyframes animation_bg_element3 {
-  0% {
+  						    0% {
     background-color: #4248c1;
   }
   
@@ -542,8 +527,8 @@ width: 45px;
 
 	
 
-@keyframes animation_bg_element3 {
-  0% {
+	@keyframes animation_bg_element3 {
+  					    0% {
     background-color: #4248c1;
   }
   
@@ -563,7 +548,7 @@ width: 45px;
 
 
 	@-webkit-keyframes animation_bg_element4 {
-  0% {
+  						    0% {
     background-color: #37acdd;
   }
   
@@ -583,7 +568,7 @@ width: 45px;
 
 
 	@keyframes animation_bg_element4 {
-  0% {
+  					    0% {
     background-color: #37acdd;
   }
   
@@ -603,7 +588,7 @@ width: 45px;
 
 
 	@-webkit-keyframes animation_bg_element5 {
-  0% {
+  						    0% {
     background-color: #1493c9;
   }
   
@@ -623,7 +608,7 @@ width: 45px;
 
 
 	@keyframes animation_bg_element5 {
-  0% {
+  					     0% {
     background-color: #1493c9;
   }
   
@@ -643,7 +628,7 @@ width: 45px;
 
 
 	@-webkit-keyframes animation_bg_element6 {
-  0% {
+  					             0% {
     background-color: #5c30ae;
   }
   
@@ -663,7 +648,7 @@ width: 45px;
 
 
 	@keyframes animation_bg_element6 {
-  0% {
+  					    0% {
     background-color: #5c30ae;
   }
   
@@ -683,7 +668,7 @@ width: 45px;
 
 
 	@-webkit-keyframes animation_bg_element7 {
-  0% {
+  						     0% {
     background-color: #6c49ac;
   }
   
@@ -703,7 +688,7 @@ width: 45px;
 
 
 	@keyframes animation_bg_element7 {
-  0% {
+  					    0% {
     background-color: #6c49ac;
   }
   
