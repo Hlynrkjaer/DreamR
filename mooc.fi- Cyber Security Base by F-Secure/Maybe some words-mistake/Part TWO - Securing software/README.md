@@ -29,7 +29,7 @@ There will be pictures (as screenshots) about potential mistake in words.
       
       || URL for related part of: https://cybersecuritybase.github.io/securing/part3.html
          
-         ->     "Ten.png" is about place, where potentially "consequance"-word called as //"consequanse"//;
+         ->     "Ten.png" is about place, where potentially "consequence"-word called as //"consequense"//;
       
       
       || URL for related part of: https://cybersecuritybase.github.io/securing/part4.html
