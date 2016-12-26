@@ -2,11 +2,11 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 		<head>
-
+			
+	<title>ToDo</title>	
 	<meta charset="utf-8" />
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"/>
 
 		</head>
 
@@ -60,22 +60,20 @@
 </div>
 
 
-<p>
-<ul>
+<p id="ul">
   <code>
   > Do not forget remove or do "deny"-access to this page;<br />
-  > Temporary storage for src-files of project (ask other team for review): <a th:href="@{hidden.html}">URL</a>;<br />
+  > Temporary storage for src-files of project (ask other team for review): <a th:href="@{#ul}">URL</a>;<br />
   > Re-change debug credentials from "admin:admin" to strong ones;<br />
   > Do not forget update the "Powerful Custom CMS v2";<br /><br />
    <strong>...</strong>
   </code>
-</ul>
-<ol>
+</p>
+<p id="ol">
 	<code>
 	> Will add "About"-page with "thanks"-words for this CSS-flask template; <br />
 	> <del>Do the project;</del>
 	</code>
-<ol>
 </p>
 </body>
 
