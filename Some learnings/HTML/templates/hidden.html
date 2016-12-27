@@ -6,7 +6,7 @@
 	<title>ToDo</title>	
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen"/>
+	<link rel="stylesheet" th:href="@{/css/style.css}" type="text/css" media="screen"/>
 
 		</head>
 
@@ -62,8 +62,8 @@
 
 <p id="ul">
   <code>
-  > Do not forget remove or do "deny"-access to this page;<br />
-  > Temporary storage for src-files of project (ask other team for review): <a th:href="@{#ul}">URL</a>;<br />
+  > Do not forget to remove page or do "deny"-access to this page;<br />
+  > Temporary storage for src-files of project (ask other team for review): <a th:href="@{src?review=on}">URL</a>;<br />
   > Re-change debug credentials from "admin:admin" to strong ones;<br />
   > Do not forget update the "Powerful Custom CMS v2";<br /><br />
    <strong>...</strong>
