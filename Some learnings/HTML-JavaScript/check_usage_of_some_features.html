@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Check Features...</title>
+        <meta charset="UTF-8"/>
+	<meta http-equiv="refresh" content="30">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<style>
+		h1, p#information {text-align:center; font-size: 150%;}
+		table, th, td {border: 3px solid #357;}
+		th, td {padding: 15px; margin: 10px;}
+		td {font-size:110%; text-align: left;}
+		th {font-size:140%;}
+		table {width:100%;}
+		#information {font-family:Verdana;}
+		#demo {font:family:Verdana; color:gray;}
+		#prompt {font:family:Verdana; text-align:center; font-size:330%}
+	
+	</style>
+  </head>
+<body>
+
+<h1>First Task</h1>
+
+<p id="information"><strong>JavaScript can change the <ins><abbr title="text-words as value">content</abbr></ins> AND the <ins><abbr title="style-settings like color or font">style</abbr></ins> of an HTML tag:</strong></p>
+
+<hr /> <hr />
+
+ <table id="background-table">
+		<tr>
+	<th id="tabOne">Check</th>		<th id="tabTwo">This</th>		<th id="tabThree">Ability</th>
+		</tr>
+
+		<tr>
+	<td id="checkOne">There is</td>		<td id="checkTwo">Will Be</td>		<td id="checkThree">Something</td>
+		</tr>
+
+		<tr>
+	<td id="soOne">Will</td>		<td id="soTwo">See</td>		<td id="soThree">So</td>
+		</tr>
+ </table>
+<br />
+
+  <fieldset style="width:70%;">
+    <legend><strong>So go to check this ability:</strong></legend>
+    ||   || 
+    <button type="button" onclick="changeCheck()">Go!</button>
+    ||   || 
+    <button type="button" onclick="changeBack()">Re-check!</button>
+    ||   || 
+    <button type="button" onclick="changeDesign()">Fresh design!</button>
+    ||   || 
+<br /> <hr />
+<p><small>Page will be refreshing each thirty seconds for get back view of first page-design.<small></p>
+  </fieldset>
+
+<script type="text/javascript">
+function changeCheck() { 
+    document.getElementById("checkOne").innerHTML = "Looks";
+    document.getElementById("checkOne").style.fontSize = "25px"; 
+    document.getElementById("checkOne").style.color = "red";
+
+    document.getElementById("checkTwo").innerHTML = "like";
+    document.getElementById("checkTwo").style.fontSize = "25px"; 
+    document.getElementById("checkTwo").style.color = "red";
+
+    document.getElementById("checkThree").innerHTML = "OK!";
+    document.getElementById("checkThree").style.fontSize = "25px";   
+    document.getElementById("checkThree").style.color = "red";
+
+    document.getElementById("soOne").innerHTML = "<strong>So</strong>";
+    document.getElementById("soOne").style.fontSize = "30px"; 
+
+    document.getElementById("soTwo").innerHTML = "<strong>this</strong>";
+    document.getElementById("soTwo").style.fontSize = "30px"; 
+
+    document.getElementById("soThree").innerHTML = "<strong>work...</strong>";
+    document.getElementById("soThree").style.fontSize = "30px";  
+}
+
+function changeBack() { 
+    document.getElementById("background-table").style.backgroundColor = "white"; 
+    document.getElementById("background-table").style.color = "#222"; 
+
+    document.getElementById("checkOne").innerHTML = "There is";
+    document.getElementById("checkOne").style.fontSize = "110%"; 
+    document.getElementById("checkOne").style.color = "#222";
+
+    document.getElementById("checkTwo").innerHTML = "Will Be";
+    document.getElementById("checkTwo").style.fontSize = "110%"; 
+    document.getElementById("checkTwo").style.color = "#222";
+
+    document.getElementById("checkThree").innerHTML = "Something";
+    document.getElementById("checkThree").style.fontSize = "110%";   
+    document.getElementById("checkThree").style.color = "#222";  
+
+    document.getElementById("soOne").innerHTML = "Will";
+    document.getElementById("soOne").style.fontSize = "110%"; 
+
+    document.getElementById("soTwo").innerHTML = "See";
+    document.getElementById("soTwo").style.fontSize = "110%"; 
+
+    document.getElementById("soThree").innerHTML = "So";
+    document.getElementById("soThree").style.fontSize = "110%";  
+}
+
+function changeDesign() { 
+    document.getElementById("background-table").style.backgroundColor = "#222"; 
+    document.getElementById("background-table").style.color = "white"; 
+    document.getElementById("tabOne").style.textAlign = "left"; 
+    document.getElementById("tabTwo").style.textAlign = "left"; 
+    document.getElementById("tabThree").style.textAlign = "left"; 
+    document.getElementById("checkOne").style.textAlign = "center";
+    document.getElementById("checkOne").style.color = "powderblue";
+    document.getElementById("checkTwo").style.textAlign = "center";
+    document.getElementById("checkTwo").style.color = "powderblue";
+    document.getElementById("checkThree").style.textAlign = "center";
+    document.getElementById("checkThree").style.color = "powderblue";
+    document.getElementById("soOne").style.textAlign = "center";
+    document.getElementById("soTwo").style.textAlign = "center"; 
+    document.getElementById("soThree").style.textAlign = "center";
+}
+</script>
+<noscript id="prompt"><pre>There is missing support for <b>JavaScript</b>! 
+Or this is disabled by settings!
+
+Turn ON it for get check-ability...</pre></noscript>
+</body>
+</html>
