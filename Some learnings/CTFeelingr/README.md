@@ -21,8 +21,25 @@ With JavaScript tasks - I am not so friendly with most of 'related' fields. Just
 🚉 **tredjedag**|In general, sorted speedy than two others. |
 ----------------|-------------------------------|
 
-After sorting latest task for unlock fresh tasks - all of them was released. So, less then thirty minutes and there are only "Key Validation Service Four" and "secret_c" are unsorted. First one is postponed for futher play with it (as previous Key Validation Service too). And with "secret_c" - I tried to check and play statically. With some potential steps and checking information.
+After sorting latest task for unlock fresh tasks - all of them was released already. So, less then thirty minutes and there are only "Key Validation Service Four" and "secret_c" are unsorted. First one is postponed for futher play with it (as previous Key Validation Service too). And with "secret_c" - I tried to check and play statically. With some potential steps and checking information.
 Even if it with some results - based on my too much small experience (too much) with kind of executables-debug and Linux - I delayed further play for installing Linux 64bit and potential debug it directly (dynamically). Or so on.
+
+    ╒═════════════╕
+    ╏later eddited╏
+    ╚━━━━━━━━━━━━━╝
+
+↪ after two-days delay - I back to unsorted three tasks ("secret_c" and Key Validation Service III/IV).
+I decided to continue with 'static'-analysis and potential tries to use software like Snowman ('disassembler') as decompiler tool under Windows. It was with good enough result (in general, based on 'basic' task and design of secret_c). But based on my too much small experience with any of such things (like disassemblers, decompilers, debugging and Linux software) - I was confused about. And decided to install Debian 64bit. Then to try debug/play with gdb and some other tools. It was interesting experience, but not real part of my further sort steps. Play with "secret_c" was about six or eight hours (include some delays) where most time was about research and learn things about potential debugging, asm and so on.
+
+Based on basic design of secret_c - my feelings was always about too generic solution. I thought about different potential tricks (include tricky task like disasm/decompile -> modify if|else-> recompile back ....) and most of them was about 'need to know how to perform such step'. So, I decided to think more about potential 'jump' to success-point. During my tries to re-check situation with potential proper breakpoints and potential jumps... I decided to re-check my 'first' thought (which was after too visible 'characters' of flag - and what I tried and where it was not enough and I switched to other tries around). I decided to re-look more about "what is movsx" (which I ignored firstly) - because instructions start be more clear (after all noted experience). And, yes, it was perfect!
+So, with proper experience - such task (well-designed for this basic course) should be sorted pretty briefly (maybe fifteen minutes or less). But I am not sure that my own sort-design is expected sort steps (since access to direct flag - rather than to potential password - if it was expected).
+
+As result, only "Key Validation Service III and IV" are unsorted. In fact, I did not look for them yet (practically at all).
+Not sure if such tasks are well-fitted to this course. Probably it is interesting design for JavaScript lovers (and debuggings things around) and probably it is pretty basic ones. But I am not like JavaScript (and things around are not really interesting for me).
+But I feel that design and expected steps to sort it - pretty cool an good enough!
+But for sort such tasks - I have to learn more about "how to work with JavaScript and advanced browser's console" (if such steps are needed). For example, even second Key Validation Service was a basic one - but it was unclear for me how to re-use browser's console with enough result. So, I did manual compute calculation and research about some technologies. Then only re-check that it was pretty brief task with browser's console itself....
+
+So, will play with "Key Validation Service III/IV" later.
 
 - - - -
 
